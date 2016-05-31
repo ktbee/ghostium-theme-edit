@@ -2,7 +2,8 @@
   font-family: $title-font-family;
   padding: 20px 0;
   border-top: 2px solid $line-breaks-color;
-  color: $muted-text-color;
+  color: $text-color;
+  background-color: gainsboro;
 
   a {
     color: $muted-text-color;
@@ -21,4 +22,9 @@
   small {
     font-size: 11px;
   }
+}
+
+#hubspot-form {
+  margin: 0 auto;
+  width: 300px;
 }
