@@ -44,6 +44,9 @@
     <link href="/assets/css/style.css">
     <!-- endbuild -->
 
+    <!-- manually added font awesome CDN to fix assets bug in the short term -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
     <script type="text/javascript">
       {{> custom/config}}
 
@@ -73,11 +76,11 @@
     {{ghost_head}}
   </head>
   <body class="{{body_class}}">
-  <button class="drawer-button">
-      <a href="/" data-pjax>
-        <i class="fa fa-home"></i>Home
-      </a>
-  </button>
+  <a href="/">
+    <button class="drawer-button">
+        <span class="fa fa-home"></span>
+    </button>
+  </a>
    <div class="drawer-overlay"></div>
     <main id="container" role="main" class="container">
       <div class="surface">
